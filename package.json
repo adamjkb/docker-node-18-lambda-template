@@ -1,0 +1,16 @@
+{
+  "name": "docker-node-18-lambda-template",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node ./esbuild.config.js"
+  },
+  "dependencies": {
+    "undici": "^5.22.1",
+    "esbuild": "^0.18.10"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "eslint": "^8.43.0"
+  }
+}

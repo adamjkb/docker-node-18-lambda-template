@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  lambda:
+    container_name: 'node-18-lambda'
+    build: .
+    ports:
+    - "9000:8080"
